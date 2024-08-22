@@ -1,0 +1,59 @@
+.card-position {
+  position: relative;
+}
+
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  position: absolute;
+  top: -40px;
+}
+
+.card-item {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  box-shadow: 0 0 7px 1px rgb(71, 71, 71);
+  background-color: white;
+  border-radius: 10px;
+}
+
+.card-left svg {
+  background-color: #00b100;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.card-right p {
+  font-size: 19px;
+  text-align: center;
+}
+
+@media (max-width: 904px) {
+  .card-wrapper {
+    position: relative;
+    top: 0;
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 888px) {
+  .card-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .card-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 420px) {
+  .card-right p {
+    font-size: 14px;
+  }
+}

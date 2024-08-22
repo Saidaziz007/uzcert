@@ -1,0 +1,32 @@
+.about-hero {
+  background-image: url(../../assets/background-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 300px;
+}
+
+.about-hero-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+}
+
+.about-hero-title h1 {
+  font-size: 40px;
+}
+
+.about-works h1 {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.about-works ul {
+  list-style: disc;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-bottom: 50px;
+  font-size: 18px;
+}

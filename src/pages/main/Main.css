@@ -1,0 +1,179 @@
+.news {
+  padding-top: 150px;
+}
+
+.news-top {
+  text-align: center;
+}
+
+.news-top h1 {
+  font-size: 42px;
+}
+
+.news-bottom {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding-top: 15px;
+}
+
+.news-card {
+  width: 100%;
+  max-width: 685px;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: rgb(230, 230, 230);
+}
+
+.news-card img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.news-card-info {
+  padding: 10px 15px 20px 15px;
+}
+
+.news-card-info p {
+  color: green;
+  font-weight: 500;
+}
+
+.news-date {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-top: 10px;
+  color: grey;
+}
+
+.news-date p {
+  color: grey !important;
+}
+
+.work-top {
+  padding-top: 25px;
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.work-bottom {
+  background-image: url(../../assets/background-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 300px;
+}
+
+.work-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  min-height: 300px;
+}
+
+.work-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.work-info p {
+  color: green;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.work-info h4 {
+  font-size: 20px;
+}
+
+.partners-bottom {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.partners-bottom img {
+  width: 25%;
+}
+
+.partners-top {
+  text-align: center;
+  font-size: 25px;
+}
+
+@media (max-width: 1272px) {
+  .news {
+    padding-top: 200px;
+  }
+}
+
+@media (max-width: 1102px) {
+  .news {
+    padding-top: 250px;
+  }
+}
+
+@media (max-width: 953px) {
+  .news {
+    padding-top: 280px;
+  }
+}
+
+@media (max-width: 904px) {
+  .news {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 825px) {
+  .news-card img {
+    height: 300px;
+  }
+  .partners-top h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 625px) {
+  .news-bottom {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .news-card-info p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 550px) {
+  .news-card img {
+    height: 200px;
+    object-fit: inherit;
+  }
+}
+
+@media (max-width: 505px) {
+  .work-top h1 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .work-info p {
+    font-size: 25px;
+  }
+  .work-info h4 {
+    font-size: 16px;
+  }
+  .news-bottom {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .news-top h1 {
+    font-size: 30px;
+  }
+}
